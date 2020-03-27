@@ -3,6 +3,12 @@ Simple calculator service API
 - Add two numbers
 - Difference between two number
 
+#### Technology
+- Java 8
+- Maven 3
+- Spring boot 2.2.6
+- Swagger 2.8.0
+
 #### Build application
 ``` shell script
 mvn clean package

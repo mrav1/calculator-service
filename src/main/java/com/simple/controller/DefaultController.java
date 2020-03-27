@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @ControllerAdvice
 public class DefaultController extends ResponseEntityExceptionHandler {
 
-    private static final Object GENERIC_ERROR_CODE = "0001";
+    private static final Object GENERIC_ERROR_CODE = "CAL-0001";
 
     @ExceptionHandler(InvalidArgumentsException.class)
     public ResponseEntity<Object> handleInvalidArgumentsException(InvalidArgumentsException exce) {

@@ -17,7 +17,7 @@ mvn clean package
 
 #### Run application
 ``` shell script
-java -jar java -jar target/calculator-service-0.0.1-SNAPSHOT.jar
+java -jar target/calculator-service-0.0.1-SNAPSHOT.jar
 ```
 
 #### Swagger documentation

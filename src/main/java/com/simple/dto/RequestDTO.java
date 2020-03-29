@@ -1,13 +1,11 @@
 package com.simple.dto;
 
-import java.math.BigDecimal;
-
 public class RequestDTO {
 
     private String x;
     private String y;
 
-    public RequestDTO(String x, String y){
+    public RequestDTO(String x, String y) {
         this.x = x;
         this.y = y;
     }
